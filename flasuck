@@ -63,6 +63,10 @@ if os.uname()[0] == 'Darwin':
             dess = tgdir + '/' + getrandname() + '.flv'
             print 'copying to => ' + dess + ' :) \n'
             print copytod(ss,dess)
+        if ('MPEG v4 system' in fst ):
+            dess = tgdir + '/' + getrandname() + '.mp4'
+            print 'copying to => ' + dess + ' :) \n'
+            print copytod(ss,dess)
 elif os.uname()[0] == 'Linux':
     print 'Linux kernel detected :) \nScan Started'
     s = bcktik('lsof | grep Flash')
