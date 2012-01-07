@@ -30,14 +30,14 @@ DestDir      : Write file into DestDir, must be a valid directory. Will select `
 
 Demo:
 
-$ flasuck 
+$ flasuck Movies
 Darwin kernel detected :) 
 Scan Started
-copying to => /Users/sarimkhan/testtmp/1T0AZP_1.flv :) 
+copying to => Movies/RETLTA_1.mp4 :) 
 
 
-copying to => /Users/sarimkhan/testtmp/A5XEF8_2.flv :) 
+copying to => Movies/V1T165_2.flv :) 
 
 
 Finished Copying 2 File(s)
-flasuck.py - Flash Media Sucker (c) 2011 by Sarim Khan
+flasuck.py - Flash Media Sucker (c) 2011 by Sarim Khan 
