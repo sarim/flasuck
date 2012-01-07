@@ -20,7 +20,9 @@ now u can run it normally by calling flasuck from anywhere.
 
     $ flasuck --help
 
-**Usage** : `flasuck [option] [DestDir]`
+# Usage :
+
+    flasuck [option] [DestDir]
 
 Options and arguments :
 
@@ -31,7 +33,7 @@ Options and arguments :
 **DestDir** : Write file into DestDir, must be a valid directory. Will select `pwd` when not provided
 
 
-**Demo:**
+# Demo:
 
     $ flasuck 
     Darwin kernel detected :) 
