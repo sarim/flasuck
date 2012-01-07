@@ -12,7 +12,7 @@ Download the script, make it executable by chmod +x flasuck.py, the run it.
 
 System Wide Install, (one liner)
 
-sudo wget -O /usr/bin/flasuck http://sarimcmsextensions.googlecode.com/files/flasuck.py ; sudo chmod +x /usr/bin/flasuck
+sudo wget -O /usr/bin/flasuck https://github.com/sarim/flasuck/raw/master/flasuck ; sudo chmod +x /usr/bin/flasuck
 
 now u can run it normally by calling flasuck from anywhere.
 
