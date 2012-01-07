@@ -59,14 +59,15 @@ if os.uname()[0] == 'Darwin':
     m = re.findall('\S+\s+\S+\s+\S+\s+\S+\s+\S+\s+\S+\s+\S+\s+\S+\s+(.+)', s)
     for ss in m:
         fst = bcktik('file \'' + str(ss) + '\'')
-        if ('Flash Video' in fst or 'MPEG' in fst):
+        if ('Flash Video' in fst):
             dess = tgdir + '/' + getrandname() + '.flv'
             print 'copying to => ' + dess + ' :) \n'
             print copytod(ss,dess)
-        if ('MPEG v4 system' in fst ):
-            dess = tgdir + '/' + getrandname() + '.mp4'
-            print 'copying to => ' + dess + ' :) \n'
-            print copytod(ss,dess)
+        else:
+            if ('MPEG v4 system' in fst ):
+                dess = tgdir + '/' + getrandname() + '.mp4'
+                print 'copying to => ' + dess + ' :) \n'
+                print copytod(ss,dess)
 elif os.uname()[0] == 'Linux':
     print 'Linux kernel detected :) \nScan Started'
     s = bcktik('lsof | grep Flash')
