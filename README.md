@@ -39,7 +39,7 @@ Options and arguments :
     Darwin kernel detected :) 
     Scan Started
     copying to => /Users/sarimkhan/testtmp/1T0AZP_1.flv :) 
-    copying to => /Users/sarimkhan/testtmp/A5XEF8_2.flv :) 
+    copying to => /Users/sarimkhan/testtmp/RETLTA_1.mp4 :) 
 
     Finished Copying 2 File(s)
 
